@@ -7561,14 +7561,78 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83">如何建立開發環境<a class="anchor-link" href="#%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83">¶</a></h2><ul>
-<li><a href="">Miniconda</a></li>
-<li><a href="">Microsoft Visual Studio Code</a><ul>
+<li><a href="https://docs.anaconda.com/miniconda/miniconda-install/">Miniconda</a></li>
+<li><a href="https://code.visualstudio.com/">Microsoft Visual Studio Code</a><ul>
 <li>安裝 Python 外掛套件。</li>
 <li>安裝 Rainbow CSV 外掛套件。</li>
 </ul>
 </li>
-<li><a href="">SQLiteStudio</a></li>
+<li><a href="https://github.com/pawelsalawa/sqlitestudio/releases">SQLiteStudio</a></li>
 </ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b5797540">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84%E7%B5%82%E7%AB%AF%E6%A9%9F%E6%8C%87%E4%BB%A4">基礎的終端機指令<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84%E7%B5%82%E7%AB%AF%E6%A9%9F%E6%8C%87%E4%BB%A4">¶</a></h2><table>
+<thead>
+<tr>
+<th style="text-align:left">功用</th>
+<th style="text-align:left">Anaconda Prompt</th>
+<th style="text-align:left">Terminal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">切換目錄</td>
+<td style="text-align:left"><code>cd</code></td>
+<td style="text-align:left"><code>cd</code></td>
+</tr>
+<tr>
+<td style="text-align:left">列出檔案、資料夾清單</td>
+<td style="text-align:left"><code>dir</code></td>
+<td style="text-align:left"><code>ls</code></td>
+</tr>
+<tr>
+<td style="text-align:left">清空畫面</td>
+<td style="text-align:left"><code>cls</code></td>
+<td style="text-align:left"><code>clear</code></td>
+</tr>
+<tr>
+<td style="text-align:left">顯示專案環境安裝的 Python 路徑</td>
+<td style="text-align:left"><code>where python</code></td>
+<td style="text-align:left"><code>which python</code></td>
+</tr>
+<tr>
+<td style="text-align:left">從列出清單中搜尋特定文字</td>
+<td style="text-align:left"><code>findstr</code></td>
+<td style="text-align:left"><code>grep</code></td>
+</tr>
+<tr>
+<td style="text-align:left">顯示目前所在路徑</td>
+<td style="text-align:left"><code>chdir</code></td>
+<td style="text-align:left"><code>pwd</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=873d1df3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E6%AA%A2%E8%A6%96-Python-%E8%88%87-conda-%E7%9A%84%E5%AE%89%E8%A3%9D%E6%98%AF%E5%90%A6%E5%AE%8C%E6%88%90">檢視 Python 與 conda 的安裝是否完成<a class="anchor-link" href="#%E6%AA%A2%E8%A6%96-Python-%E8%88%87-conda-%E7%9A%84%E5%AE%89%E8%A3%9D%E6%98%AF%E5%90%A6%E5%AE%8C%E6%88%90">¶</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>python<span class="w"> </span>--version
+<span class="o">(</span>base<span class="o">)</span><span class="w"> </span>conda<span class="w"> </span>--version
+</pre></div>
 </div>
 </div>
 </div>
@@ -7579,21 +7643,11 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="%E8%A8%BB%E5%86%8A-GitHub%E3%80%81Kaggle-%E8%88%87-Hugging-Face">註冊 GitHub、Kaggle 與 Hugging Face<a class="anchor-link" href="#%E8%A8%BB%E5%86%8A-GitHub%E3%80%81Kaggle-%E8%88%87-Hugging-Face">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=cdfcd23e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
+<h2 id="%E8%A8%BB%E5%86%8A-GitHub%E3%80%81Kaggle-%E8%88%87-Hugging-Face">註冊 GitHub、Kaggle 與 Hugging Face<a class="anchor-link" href="#%E8%A8%BB%E5%86%8A-GitHub%E3%80%81Kaggle-%E8%88%87-Hugging-Face">¶</a></h2><ul>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://www.kaggle.com/">Kaggle</a></li>
+<li><a href="https://huggingface.co/">Hugging Face</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -7608,17 +7662,105 @@ main {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=29296f32">
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a5638673">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E5%BB%BA%E7%AB%8B%E6%A8%99%E9%A1%8C">基礎的 Markdown 語法：建立標題<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E5%BB%BA%E7%AB%8B%E6%A8%99%E9%A1%8C">¶</a></h2><p>可以用 <code>#</code> 一直到 <code>######</code>，對應第一層標題至第六層標題。</p>
 </div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=778b507a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%B2%97%E9%AB%94%E8%88%87%E6%96%9C%E9%AB%94">基礎的 Markdown 語法：粗體與斜體<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%B2%97%E9%AB%94%E8%88%87%E6%96%9C%E9%AB%94">¶</a></h2><ul>
+<li>粗體可以用 <code>**</code> 包括。</li>
+<li>斜體可以用 <code>*</code> 包括。</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=df5ab4c5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%A8%8B%E5%BC%8F%E6%88%96%E6%8C%87%E4%BB%A4">基礎的 Markdown 語法：程式或指令<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%A8%8B%E5%BC%8F%E6%88%96%E6%8C%87%E4%BB%A4">¶</a></h2><ul>
+<li>列內程式或指令用一個 `(tilt) 包括。</li>
+<li>程式或指令區塊用三個 `(tilt) 包括，並且可以指定程式碼 Highlight 的語言。</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6d1e257f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E6%9C%89%E5%BA%8F%E6%B8%85%E5%96%AE">基礎的 Markdown 語法：有序清單<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E6%9C%89%E5%BA%8F%E6%B8%85%E5%96%AE">¶</a></h2><p>可以用整數 <code>1.</code> 一直到 <code>n.</code>，對應第一項至第 n 項。</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=38a8124c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%84%A1%E5%BA%8F%E6%B8%85%E5%96%AE">基礎的 Markdown 語法：無序清單<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E7%84%A1%E5%BA%8F%E6%B8%85%E5%96%AE">¶</a></h2><p>使用 <code>-</code> 減號標註第 n 項，可以搭配縮排產生不同階層的清單。</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8b41defd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E8%B6%85%E9%80%A3%E7%B5%90">基礎的 Markdown 語法：超連結<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E8%B6%85%E9%80%A3%E7%B5%90">¶</a></h2><ul>
+<li>使用 <code>&lt;link&gt;</code> 包括超連結。</li>
+<li>使用 <code>[link_description](link)</code> 包括超連結敘述與超連結。</li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d8c1aef9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E5%9C%96%E7%89%87">基礎的 Markdown 語法：圖片<a class="anchor-link" href="#%E5%9F%BA%E7%A4%8E%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95%EF%BC%9A%E5%9C%96%E7%89%87">¶</a></h2><p>使用 <code>![](img_path)</code> 標註圖片相對路徑。</p>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f3ee3205">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E6%9B%B4%E5%A4%9A%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95">更多的 Markdown 語法<a class="anchor-link" href="#%E6%9B%B4%E5%A4%9A%E7%9A%84-Markdown-%E8%AA%9E%E6%B3%95">¶</a></h2><ul>
+<li>表格。</li>
+<li>數學式。</li>
+<li>...等。</li>
+</ul>
+<p>來源：<a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
 </div>
 </div>
 </div>
