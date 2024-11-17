@@ -7826,6 +7826,38 @@ main {
 </div>
 </div>
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5c8c3e17">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E5%A6%82%E4%BD%95%E7%B5%84%E7%B9%94%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88">如何組織一個專案<a class="anchor-link" href="#%E5%A6%82%E4%BD%95%E7%B5%84%E7%B9%94%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88">¶</a></h2>
+</div>
+</div>
+</div>
+</div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2e6e7c03">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88%E8%B3%87%E6%96%99%E5%A4%BE%E5%B0%8D%E6%87%89%E4%B8%80%E5%80%8B-conda-%E7%92%B0%E5%A2%83">一個專案資料夾對應一個 conda 環境<a class="anchor-link" href="#%E4%B8%80%E5%80%8B%E5%B0%88%E6%A1%88%E8%B3%87%E6%96%99%E5%A4%BE%E5%B0%8D%E6%87%89%E4%B8%80%E5%80%8B-conda-%E7%92%B0%E5%A2%83">¶</a></h2><ul>
+<li>資料夾名稱即是專案名稱，使用小寫英文並以底線區隔單字的方式命名（snake case）。</li>
+<li>專案資料夾中會有：<ul>
+<li><code>data/</code> 資料夾存放所需檔案。</li>
+<li><code>README.md</code> 讀我檔案會以 Markdown 語法簡介專案以及如何重現專案。</li>
+<li><code>environment.yml</code> 會紀錄重現專案的環境名稱、Python 版本號與模組版本號。</li>
+<li><code>requirements.txt</code> 會紀錄模組版本號（Hugging Face Spaces 部署可能會需要）。</li>
+<li>Python 程式碼檔案，可以在專案環境啟動的狀況下以 <code>python script_name.py</code> 執行。</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
 </div></section></section>
 </div>
 </div>
