@@ -8875,7 +8875,11 @@ main {
 <h2 id="%E6%92%B0%E5%AF%AB-environment.yml">撰寫 <code>environment.yml</code><a class="anchor-link" href="#%E6%92%B0%E5%AF%AB-environment.yml">¶</a></h2><ul>
 <li>環境名稱：<code>data_scientists_toolbox</code></li>
 <li>Python 版本：<code>python --version</code></li>
-<li>模組版本：<code>conda list | grep $module_name</code></li>
+<li>模組版本：<ul>
+<li><code>conda list | grep $module_name</code> (macOS Termina)</li>
+<li><code>conda list | findstr $module_name</code> (windows Anaconda Prompt)</li>
+</ul>
+</li>
 </ul>
 <pre><code>name: data_scientists_toolbox
 channels:

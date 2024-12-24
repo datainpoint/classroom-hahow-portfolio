@@ -7545,8 +7545,10 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="CSSE-at-Johns-Hopkins-University">CSSE at Johns Hopkins University<a class="anchor-link" href="#CSSE-at-Johns-Hopkins-University">¶</a></h2><ul>
-<li><a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports">csse_covid_19_daily_reports
-</a></li>
+<li>[csse_covid_19_daily_reports</li>
+</ul>
+<p>](<a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports">https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports</a>)</p>
+<ul>
 <li><a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">csse_covid_19_time_series</a></li>
 <li><a href="https://github.com/govex/COVID-19/blob/master/data_tables/vaccine_data/global_data/time_series_covid19_vaccine_global.csv">time_series_covid19_vaccine_global</a></li>
 </ul>
@@ -8565,8 +8567,10 @@ main {
 <li>環境名稱：<code>covid_19_pandemic</code></li>
 <li>Python 版本：<code>python --version</code></li>
 <li>模組版本：<ul>
-<li><code>conda list | grep $module_name</code></li>
-<li><code>pip list | grep $module_name</code></li>
+<li><code>conda list | grep $module_name</code> (macOS Terminal)</li>
+<li><code>pip list | grep $module_name</code> (macOS Terminal)</li>
+<li><code>conda list | findstr $module_name</code> (windows Anaconda Prompt)</li>
+<li><code>pip list | findstr $module_name</code> (windows Anaconda Prompt)</li>
 </ul>
 </li>
 </ul>
@@ -8640,6 +8644,23 @@ dependencies:
 </div>
 </div>
 </div></section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=196290e5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="%E9%83%A8%E7%BD%B2%E8%87%B3-Hugging-Face">部署至 <a href="https://huggingface.co/">Hugging Face</a><a class="anchor-link" href="#%E9%83%A8%E7%BD%B2%E8%87%B3-Hugging-Face">¶</a></h2><ul>
+<li>前往 <a href="https://huggingface.co/">Hugging Face</a> 註冊。</li>
+<li>User -&gt; New Space.</li>
+<li>License -&gt; MIT.</li>
+<li>Space SDK -&gt; Gradio -&gt; Blank.</li>
+<li>Files 上傳 <code>app.py</code>、<code>data/covid_19.db</code> 與 <code>requirements.txt</code></li>
+</ul>
+</div>
+</div>
+</div>
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2e24187b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8654,6 +8675,7 @@ dependencies:
 <li>使用 decorator 更新資料篩選函數。</li>
 </ul>
 </li>
+<li>成品能夠以 Hugging Face Spaces 網址直接訪問。</li>
 <li>可以重現（Reproducible）。</li>
 </ul>
 </div>
@@ -8675,7 +8697,6 @@ dependencies:
 </li>
 <li>試著從 CSSE at Johns Hopkins University <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data">csse_covid_19_data</a> 找出更多想放在頁籤儀表板上的資料。</li>
 <li>除了 <code>gradio</code> 以外，考量其他的網頁應用程式框架（e.g. <code>streamlit</code>、<code>dash</code>）做出成品。</li>
-<li>HuggingFace 因為不能安裝 <code>plotly</code> 因此無法部署，考量是否有其他的選項。</li>
 </ul>
 </div>
 </div>
